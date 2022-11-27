@@ -17,6 +17,10 @@ project "ImGuizmo"
 		"ImGuizmo.h",
 		"ImGuizmo.cpp"
 	}
+	
+    includedirs {
+		"%{IncludeDir.ImGui}",
+	}
   
   links {
     "ImGui"
